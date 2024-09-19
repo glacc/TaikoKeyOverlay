@@ -37,7 +37,7 @@ namespace KeyOverlayTaiko
 		static Font? font;
 
 		// Don:     Red     (235, 69,  44)
-		// Katsu:   Blue	    (68,	  141, 171)
+		// Katsu:   Blue    (68,  141, 171)
 		// Rolled:  Yellow  (252, 83,  6)
 
 		static Color colorDon = new Color(235, 69, 44);
