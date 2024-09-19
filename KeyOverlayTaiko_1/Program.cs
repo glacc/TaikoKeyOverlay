@@ -347,7 +347,7 @@ namespace KeyOverlayTaiko
 			string fontFilePath = Path.Combine(assemblyPath, fontFileName);
 			font = new Font(fontFilePath);
 
-			window = new RenderWindow(new SFML.Window.VideoMode((uint)windowWidth, (uint)windowHeight), "TaikoKeyOverlay v0.0.1");
+			window = new RenderWindow(new SFML.Window.VideoMode((uint)windowWidth, (uint)windowHeight), "TaikoKeyOverlay");
 			window.SetFramerateLimit(60);
 			window.Closed += OnClose;
 			
